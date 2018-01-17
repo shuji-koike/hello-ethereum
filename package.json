@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:shuji-koike/hello-ethereum.git",
   "author": "Shuji Koike <shuji.koike@me.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^4.0.4"
+  }
 }
