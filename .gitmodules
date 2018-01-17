@@ -1,0 +1,3 @@
+[submodule "ganache"]
+	path = ganache
+	url = git@github.com:trufflesuite/ganache.git

@@ -11,3 +11,8 @@ cd truffle
 truffle init
 truffle compile
 ```
+
+```
+cd ganache
+npm start
+```
