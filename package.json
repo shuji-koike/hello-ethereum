@@ -5,7 +5,15 @@
   "repository": "git@github.com:shuji-koike/hello-ethereum.git",
   "author": "Shuji Koike <shuji.koike@me.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "cd truffle && truffle test",
+    "test:ci": "cd truffle && truffle test test/*.sol --network test",
+    "ci": "time circleci build"
+  },
   "dependencies": {
     "truffle": "^4.0.4"
+  },
+  "devDependencies": {
+    "ethereumjs-testrpc": "^6.0.3"
   }
 }
