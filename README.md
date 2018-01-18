@@ -15,6 +15,18 @@ circleci config validate -c .circleci/config.yml
 circleci build
 ```
 
+# truffle
+
+```
+# mkdir truffle
+# cd truffle
+# npx truffle init
+npx truffle compile
+npx truffle migrate
+npx truffle test
+npx truffle test test/*.sol
+```
+
 # testrpc
 
 ```
