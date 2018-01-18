@@ -7,5 +7,8 @@ module.exports = {
       port: 7545,
       network_id: "*" // Match any network id
     }
-  }
+  },
+  // this is a workaround to make `truffle test --network test` to connect to the network started by it self.
+  // @ref https://github.com/trufflesuite/truffle/issues/643
+  test: {}
 };
