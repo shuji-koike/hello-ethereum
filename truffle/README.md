@@ -1,18 +1,8 @@
 # setup
 
 ```
-# http://truffleframework.com/docs/getting_started/installation
-npm install -g truffle
-```
-
-```
 mkdir truffle
 cd truffle
-truffle init
-truffle compile
-```
-
-```
-cd ganache
-npm start
+npx truffle init
+npx truffle compile
 ```
