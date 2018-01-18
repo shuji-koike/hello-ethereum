@@ -1,7 +1,7 @@
 # hello-ethereum
 Hello, Ethereum!
 
-# circleci
+# circleci [![CircleCI](https://circleci.com/gh/shuji-koike/hello-ethereum.svg?style=svg&circle-token=c125b6a170d394ba973e450260372635976fa441)](https://circleci.com/gh/shuji-koike/hello-ethereum)
 
 ```
 # https://circleci.com/docs/2.0/local-jobs/#installing-the-cli-locally
