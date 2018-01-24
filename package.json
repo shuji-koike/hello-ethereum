@@ -6,8 +6,8 @@
   "author": "Shuji Koike <shuji.koike@me.com>",
   "license": "MIT",
   "scripts": {
-    "test": "cd truffle && truffle test",
-    "test:ci": "cd truffle && truffle test test/*.sol --network test",
+    "test": "truffle test",
+    "test:sol": "truffle test test/*.sol --network test",
     "ci": "time circleci build"
   },
   "dependencies": {
