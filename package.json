@@ -6,6 +6,7 @@
   "author": "Shuji Koike <shuji.koike@me.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "solium -d contracts",
     "test": "truffle test",
     "test:sol": "truffle test test/*.sol --network test",
     "ci": "time circleci build"
@@ -15,6 +16,7 @@
     "zeppelin-solidity": "^1.5.0"
   },
   "devDependencies": {
-    "ethereumjs-testrpc": "^6.0.3"
+    "ethereumjs-testrpc": "^6.0.3",
+    "solium": "^1.1.3"
   }
 }
