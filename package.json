@@ -9,14 +9,15 @@
     "lint": "solium -d contracts",
     "test": "truffle test",
     "test:sol": "truffle test test/*.sol --network test",
+    "test:js": "truffle test test/*.js",
+    "testrpc:start": "testrpc --port 7545 --deterministic",
+    "ganache:start": "cd ganache && npm start",
     "ci": "time circleci build"
-  },
-  "dependencies": {
-    "truffle": "^4.0.4",
-    "zeppelin-solidity": "^1.5.0"
   },
   "devDependencies": {
     "ethereumjs-testrpc": "^6.0.3",
-    "solium": "^1.1.3"
+    "solium": "^1.1.3",
+    "truffle": "^4.0.4",
+    "zeppelin-solidity": "^1.5.0"
   }
 }
