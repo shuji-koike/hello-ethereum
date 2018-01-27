@@ -11,6 +11,7 @@
     "test:sol": "truffle test test/*.sol --network test",
     "test:js": "truffle test test/*.js",
     "testrpc:start": "testrpc --port 7545 --deterministic",
+    "ganache:install": "cd ganache && yarn install && rm yarn.lock",
     "ganache:start": "cd ganache && npm start",
     "ci": "time circleci build"
   },
