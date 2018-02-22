@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "ethereumjs-testrpc": "^6.0.3",
+    "nodemon": "^1.15.1",
     "solium": "^1.1.3"
   }
 }
