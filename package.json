@@ -16,6 +16,7 @@
     "ci": "time circleci build"
   },
   "dependencies": {
+    "elasticsearch": "^14.1.0",
     "truffle": "^4.0.6",
     "web3": "^1.0.0-beta.30",
     "zeppelin-solidity": "^1.7.0"
