@@ -1983,9 +1983,9 @@ sol-explore@1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/sol-explore/-/sol-explore-1.6.1.tgz#b59f073c69fe332560d5a10c32ba8ca7f2986cfb"
 
-solc@0.4.18:
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/solc/-/solc-0.4.18.tgz#83ac6d871dd16a9710e67dbb76dad7f614100702"
+solc@0.4.19:
+  version "0.4.19"
+  resolved "https://registry.yarnpkg.com/solc/-/solc-0.4.19.tgz#1af1c4c292a0365a6977d4cbe3fbee7139b4b561"
   dependencies:
     fs-extra "^0.30.0"
     memorystream "^0.3.1"
@@ -2202,13 +2202,13 @@ tough-cookie@~2.3.0:
   dependencies:
     punycode "^1.4.1"
 
-truffle@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/truffle/-/truffle-4.0.5.tgz#1462635cd6dbb9746a1b49a2d3e6b9a7f9226b58"
+truffle@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/truffle/-/truffle-4.0.6.tgz#04a23b4c75336f325804d262317f901dbab4f729"
   dependencies:
     mocha "^3.4.2"
     original-require "^1.0.1"
-    solc "0.4.18"
+    solc "0.4.19"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -2470,9 +2470,9 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-zeppelin-solidity@^1.5.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/zeppelin-solidity/-/zeppelin-solidity-1.6.0.tgz#c1048de286124cdcdb7e2492c2890ddfde04dd84"
+zeppelin-solidity@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/zeppelin-solidity/-/zeppelin-solidity-1.7.0.tgz#c43332926b6e84a845015c21753064eeac054df0"
   dependencies:
     dotenv "^4.0.0"
     ethjs-abi "^0.2.1"
